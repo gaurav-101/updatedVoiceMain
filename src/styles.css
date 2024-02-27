@@ -1,0 +1,104 @@
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Squada+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+#canvas{
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 680px;
+  margin-right: 0px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  
+  --font-roboto: Roboto;
+  --font-roboto-mono: "Roboto Mono";
+  --font-roboto-flex: "Roboto Flex";
+  --font-squada-one: "Squada One";
+
+
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+
+
+  --white: #fff;
+
+
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-3xs: 10px;
+
+
+  --padding-45xl: 64px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+
+
+  --br-13xl: 32px;
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Squada+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+/* #canvas{
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 680px;
+  margin-right: 0px;
+} */
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-roboto-mono: "Roboto Mono";
+  --font-roboto-flex: "Roboto Flex";
+  --font-squada-one: "Squada One";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --white: #fff;
+  --color-whitesmoke: #f5f5f5;
+  --color-darkslategray: #323232;
+
+  /* Gaps */
+  --gap-61xl: 80px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-21xl: 40px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-61xl: 80px;
+  --padding-45xl: 64px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-13xl: 32px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+}

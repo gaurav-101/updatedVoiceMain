@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "OmniWaifu.moc3",
+		"Textures": [
+			"OmniWaifu.1024/texture_00.png"
+		],
+		"Physics": "OmniWaifu.physics3.json",
+		"DisplayInfo": "OmniWaifu.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

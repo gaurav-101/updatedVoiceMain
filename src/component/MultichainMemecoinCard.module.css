@@ -1,0 +1,109 @@
+.omnicatIcon {
+  width: 113.3px;
+  position: relative;
+  height: 24px;
+}
+.link {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 120%;
+}
+.links,
+.logo {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.links {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+.vectorIcon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content,
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.content {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--white);
+  height: 1px;
+}
+.link7,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.link7 {
+  text-decoration: underline;
+}
+.credits,
+.footer4,
+.row {
+  justify-content: flex-start;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.credits,
+.footer4 {
+  flex-direction: column;
+  align-items: center;
+}
+.credits {
+  width: 1312px;
+  display: none;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+}
+.footer4 {
+  align-self: stretch;
+  height: 326px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-61xl) var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  background-image: url(/public/footer--4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-roboto-mono);
+}
